@@ -21,7 +21,7 @@ public class ProductController {
         return service.getAll();
     }
 
-    @PostMapping("/api/products")
+    @PostMapping("/grt")
 
     public Product add(@RequestBody Product product) {
         return service.save(product);
